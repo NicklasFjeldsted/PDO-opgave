@@ -80,19 +80,19 @@ html, body {
         <div class="col-sm-9 col-md-6 col-lg-11">
             <h2 class="pt-1 text-info">Profil</h2>
             <hr class="m-1">
-            <div class="row h-50 ">
+            <div class="tab-content row h-50 ">
                 <div class="col-lg-2 mr-4 p-2"><img class="img-fluid border border-primary p-2" src="person.png" alt=""></div>
                 <div class="col-lg-6 ml-4 p-2">
                     <div class="tabbable">
                         <ul class="nav nav-tabs border border-primary border-bottom-0 ">
-                            <li class="nav-item active"><a class="nav-link rounded-0" href="#" data-toggle="tab">Profil</a></li>
-                            <li class="nav-item"><a class="nav-link rounded-0" href="#" data-toggle="tab">Projekter</a></li>
+                            <li class="nav-item active"><a class="nav-link rounded-0" href="#profil" data-toggle="tab">Profil</a></li>
+                            <li class="nav-item"><a class="nav-link rounded-0" href="#projekter" data-toggle="tab">Projekter</a></li>
                         </ul>
                     </div>
 
                 <!-- Profil -->
                     
-                <div class="p-3 border border-primary" id="profil">
+                <div class="tab-pane container active p-3 border border-primary" id="#profil">
                         <form>
                             <div class="form-row">
                                 <div class="form-group col-lg-4">
@@ -140,10 +140,12 @@ html, body {
                     </div>
                 </div>
                 <!-- Projekter -->
-                <div class="p-3 border border-primary" id="projekter">
+                <div class="tab-pane container p-3 border border-primary" id="projekter">
                     <form>
                         <div class="form-row">
-
+                            <div class="form-group col-lg-4 bg-success"></div>
+                            <span class="form-group col-lg-4 bg-dark"></span>
+                            <div class="form-group col-lg-4 bg-warning"></div>
                         </div>
                     </form>
                 </div>
